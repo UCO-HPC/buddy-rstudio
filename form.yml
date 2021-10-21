@@ -1,0 +1,18 @@
+---
+
+cluster: "buddy"
+
+attributes:
+  modules: "rstudio-singularity"
+  buddy_queue:
+    label: Queue
+    help: Please select a queue from the drop-down.
+    widget: select
+    options:
+      - [ "General", "general" ]
+      - [ "High Mem", "high-mem" ]  
+
+form:
+  - modules
+  - buddy_queue
+  - bc_num_hours
