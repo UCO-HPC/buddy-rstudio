@@ -8,8 +8,12 @@ Changes to this project that result in an increase of the major and or minor rev
 - Users can no longer select an invalid number of hours
 - Allowed for more memory
 
+## [1.0.1] - 2021-21-21
+- Fixed form errors
+
 ## [1.0.0] - 2021-21-21
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.0...1.0.1
