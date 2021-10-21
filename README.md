@@ -27,7 +27,7 @@ You can either use the "New App" feature in the Open OnDemand development tab, o
 
 ## Contributing
 
-Please note that this application is specific to our university. Please feel free to copy and use as needed according to the associated license. IF you discover a big during use, please feel free to create a new branch and submit a pull request. 
+Please note that this application is specific to our university. Please feel free to copy and use as needed according to the associated license. If you discover a bug during use, please feel free to create a new branch and submit a pull request. 
 
 ## License
 
