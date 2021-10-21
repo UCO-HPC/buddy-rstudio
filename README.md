@@ -1,4 +1,4 @@
-# Buddy OnDemand - ANSYS Workbench
+# Buddy OnDemand - RStudio
 
 [![GitHub Release](https://img.shields.io/github/v/release/UCO-HPC/buddy_rstudio?style=flat-square)](https://github.com/UCO-HPC/buddy_rstudio/blob/main/CHANGELOG.md)
 [![GitHub License](https://img.shields.io/github/license/UCO-HPC/buddy_rstudio?style=flat-square)](https://opensource.org/licenses/MIT)
