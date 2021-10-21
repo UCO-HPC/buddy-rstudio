@@ -1,6 +1,6 @@
 # Buddy OnDemand - ANSYS Workbench
 
-[![GitHub Release](https://img.shields.io/github/v/release/UCO-HPC/buddy_rstudio?style=flat-square)](https://github.com/UCO-HPC/buddy_ansys/blob/main/CHANGELOG.md)
+[![GitHub Release](https://img.shields.io/github/v/release/UCO-HPC/buddy_rstudio?style=flat-square)](https://github.com/UCO-HPC/buddy_rstudio/blob/main/CHANGELOG.md)
 [![GitHub License](https://img.shields.io/github/license/UCO-HPC/buddy_rstudio?style=flat-square)](https://opensource.org/licenses/MIT)
 
 An app designed for UCO's OnDemand that launches an RStudio session.
