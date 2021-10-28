@@ -2,8 +2,10 @@
 Changes to this project that result in an increase of the major and or minor revision will be added here. Please follow the format outlined in [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and keep with the syntax associated with [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased]
+### Added
+- Implemented use of cgroups to control unscheduled resource usage
 
-## [1.1.0] - TODO DATE
+## [1.1.0] - 2021-28-10
 ### Added
 - Ability to select core count
 ### Fixed
