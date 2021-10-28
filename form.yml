@@ -3,15 +3,34 @@ cluster: "buddy"
 form:
   - modules
   - buddy_queue
-  - bc_num_hours
+  - buddy_num_hours
+  - buddy_num_cores
 
 attributes:
   modules: "rstudio-singularity"
   buddy_queue:
     label: Queue
-    help: "Please select a queue from the drop-down"
+    help: "Queue your job will run on"
     widget: select
     options:
       - [ "General", "general" ]
       - [ "High Mem", "high-mem" ]
     value: "General"
+  buddy_num_hours:
+    widget: number_field
+    label: "Number of hours"
+    required: true
+    help: "Set the length of time for this job (1-48)"
+    min: 1
+    max: 48
+    step: 1
+    value: 2
+  buddy_num_cores:
+    widget: number_field
+    label: "Number of cores"
+    required: true
+    help: "Set the number of cores for this job (1-20)"
+    min: 1
+    max: 20
+    step: 1
+    value: 2

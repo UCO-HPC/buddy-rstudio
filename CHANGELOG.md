@@ -3,6 +3,10 @@ Changes to this project that result in an increase of the major and or minor rev
 
 ## [Unreleased]
 ### Added
+- Implemented use of cgroups to control unscheduled resource usage
+
+## [1.1.0] - 2021-28-10
+### Added
 - Ability to select core count
 ### Fixed
 - Users can no longer select an invalid number of hours
@@ -18,6 +22,7 @@ Changes to this project that result in an increase of the major and or minor rev
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.2...HEAD
+[Unreleased]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/UCO-HPC/buddy_rstudio/compare/1.0.0...1.0.1
