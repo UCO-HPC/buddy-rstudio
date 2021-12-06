@@ -23,7 +23,7 @@ Changes to this project that result in an increase of the major and or minor rev
 ## [v1.0.1] - 2021-10-21
 - Fixed form errors
 
-## [1.0.0] - 2021-10-21
+## [v1.0.0] - 2021-10-21
 ### Added
 - Initial commit of current code
 
