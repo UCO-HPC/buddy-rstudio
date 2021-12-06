@@ -1,6 +1,6 @@
 # Buddy OnDemand - RStudio
 
-[![GitHub Release](https://img.shields.io/github/v/release/UCO-HPC/buddy_rstudio?style=flat-square)](https://github.com/UCO-HPC/buddy_rstudio/blob/main/CHANGELOG.md)
+[![GitHub Release](https://img.shields.io/github/v/release/UCO-HPC/buddy_rstudio?style=flat-square)](https://github.com/UCO-HPC/buddy_rstudio/blob/devel/CHANGELOG.md)
 [![GitHub License](https://img.shields.io/github/license/UCO-HPC/buddy_rstudio?style=flat-square)](https://opensource.org/licenses/MIT)
 
 An app designed for UCO's OnDemand that launches an RStudio session.
@@ -9,6 +9,7 @@ An app designed for UCO's OnDemand that launches an RStudio session.
 
 The following should be made available on the compute nodes
 - [RStudio] 1.3.0+
+- [R] 4.0.0+
 - [Singularity] 3.8.0+ 
 - [websockify] 0.6.0+
 
@@ -17,6 +18,7 @@ For module support:
 - [Lmod] 8.1.0+
 
 [RStudio]: https://www.rstudio.com/
+[R]: https://www.r-project.org/
 [Singularity]: https://sylabs.io/singularity/
 [websockify]: https://github.com/novnc/websockify
 [Lmod]: https://www.tacc.utexas.edu/research-development/tacc-projects/lmod
