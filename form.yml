@@ -1,13 +1,24 @@
 ---
 cluster: "buddy"
 form:
+  - version
   - modules
   - buddy_queue
   - buddy_num_hours
   - buddy_num_cores
 
 attributes:
-  modules: "rstudio-singularity"
+  version:
+    label: "RStudio/R Version"
+    help: "Select the desired version"
+    widget: select
+    options:
+       - [ "RStudio 1.3.959 (R 4.0.0/FOSS 2020a/GCC 9.3.0)", "rstudio-singularity/1.4.1106" ] 
+  modules:
+    widget: text_field
+    label: Additional modules
+    help: "Additional modules you wish to load seperated by spaces. Please be sure to match the FOSS, GCC, and or R versions listed with your selected RStudio version."
+    value: ""
   buddy_queue:
     label: Queue
     help: "Queue your job will run on"
@@ -15,7 +26,6 @@ attributes:
     options:
       - [ "General", "general" ]
       - [ "High Mem", "high-mem" ]
-    value: "General"
   buddy_num_hours:
     widget: number_field
     label: "Number of hours"

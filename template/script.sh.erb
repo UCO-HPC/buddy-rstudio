@@ -1,12 +1,23 @@
 #!/usr/bin/env bash
 
-# Env setup is taken care of within the module file
-
-module load rstudio-singularity/1.4.1106
-
 #
 # Start RStudio Server
 #
+
+# Purge the environment to avoid conflicts
+module purge
+
+# Load requested version
+module load <%= context.version %>
+
+# Load additional modules, if any
+<%- unless context.modules.blank? -%>
+# Load the requested modules
+module load <%= context.modules %>
+
+# List loaded modules
+module list
+<%- end -%>
 
 # PAM auth helper used by RStudio
 export RSTUDIO_AUTH="${PWD}/bin/auth"
