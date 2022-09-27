@@ -14,6 +14,7 @@ attributes:
     widget: select
     options:
        - [ "RStudio 1.3.959 (R 4.0.0/FOSS 2020a/GCC 9.3.0)", "rstudio-singularity/1.4.1106" ] 
+       - [ "RStudio 2022.07.1+554 (R 4.2.1/FOSS 2022a/GCC 11.3.0)", "rstudio-singularity/2022.07.1-554" ] 
   modules:
     widget: text_field
     label: Additional modules

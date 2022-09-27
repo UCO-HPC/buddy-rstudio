@@ -2,8 +2,11 @@
 Changes to this project that result in an increase of the major and or minor revision will be added here. Please follow the format outlined in [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and keep with the syntax associated with [Semantic Versioning](https://semver.org/)
 
 ## [Unreleased] - Unknown
+
+## [v2.1.0] - 2022-09-27
 ### Added
-- Implemented controls to block unscheduled resource usage
+- Support for R 4.2.1
+- Support for RServer 2022.07.1+554
 
 ## [v2.0.0] - 2021-12-06
 ### Added
@@ -27,7 +30,8 @@ Changes to this project that result in an increase of the major and or minor rev
 ### Added
 - Initial commit of current code
 
-[Unreleased]: https://github.com/UCO-HPC/buddy_rstudio/compare/v2.0.0...devel
+[Unreleased]: https://github.com/UCO-HPC/buddy_rstudio/compare/v2.1.0...devel
+[v2.1.0]: https://github.com/UCO-HPC/buddy_rstudio/compare/v2.0.0...v2.1.0
 [v2.0.0]: https://github.com/UCO-HPC/buddy_rstudio/compare/v1.1.0...v2.0.0
 [v1.1.0]: https://github.com/UCO-HPC/buddy_rstudio/compare/v1.0.2...v1.1.0
 [v1.0.2]: https://github.com/UCO-HPC/buddy_rstudio/compare/v1.0.1...v1.0.2
