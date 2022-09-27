@@ -1,6 +1,8 @@
 ---
 batch_connect:
   template: "basic"
+  conn_params:
+    - csrf_token
 script:
   queue_name: <%= buddy_queue %>
   wall_time: <%= 3600*buddy_num_hours.to_i %> 
