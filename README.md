@@ -8,8 +8,8 @@ An app designed for UCO's OnDemand that launches an RStudio session.
 ## Prerequisites
 
 The following should be made available on the compute nodes
-- [RStudio] 1.3.0+
-- [R] 4.0.0+
+- [RStudio] 2022.07.1+
+- [R] 4.2.1+
 - [Singularity] 3.8.0+ 
 - [websockify] 0.6.0+
 
